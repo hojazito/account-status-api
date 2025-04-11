@@ -16,4 +16,4 @@ def get_status():
     if account in accounts:
         return jsonify(accounts[account])
     else:
-        return jsonify({"status": "No encontrado", "balance": "N/A"}), 200
+        return jsonify({"Estado": "No encontrado", "Saldo": "N/A"}), 200
