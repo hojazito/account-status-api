@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 accounts = {
     "1026297289": {"Estado": Suspendido, "Saldo":-250.000},
-    "1056726846": {"Estado": Activa,"Saldo":450.000},
+    "1056726846": {"Estado": Activa,"Saldo":451.000},
     "1025386467": {"Estado": En Revisión,"Saldo":0}
 }
 
